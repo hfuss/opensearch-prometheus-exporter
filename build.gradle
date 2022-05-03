@@ -54,6 +54,7 @@ validatePom.enabled = false
 test.enabled = false
 
 dependencyLicenses.enabled = false
+loggerUsageCheck.enabled = false
 
 println "Host: " + java.net.InetAddress.getLocalHost()
 println "Gradle: " + gradle.gradleVersion + " JVM: " + org.gradle.internal.jvm.Jvm.current() + " Groovy: " + GroovySystem.getVersion()
