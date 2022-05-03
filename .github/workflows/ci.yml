@@ -15,7 +15,7 @@ on:
 
 env:
   gradle-version: "6.9.2"
-  java-version: "16"
+  java-version: "11"
 
 jobs:
   build:
